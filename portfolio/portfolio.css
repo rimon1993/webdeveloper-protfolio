@@ -1,0 +1,58 @@
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 300 to 800
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', Sans-serif;
+  
+}
+
+.text-primary{
+
+    color: #FD6E0A;
+}
+
+.button-primary{
+
+    border-radius: 05px;
+    background-color: #FD6E0A;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul{
+
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+
+    list-style: none;
+    margin-right: 50px;
+   
+}
+
+nav a{
+
+    text-decoration: none;
+    color: #474747;
+}
+.nav-title{
+    color: #181818;
+    font-family: open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
