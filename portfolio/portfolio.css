@@ -207,3 +207,40 @@ main {
     text-align: center;
     margin: 50px;
 }
+
+footer{
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 100PX;
+    padding: 130PX 200PX;
+    gap: 100px;
+   
+}
+
+.section-title {
+
+      color: #474747;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+}
+
+.footer-colum{
+
+    width: 50%;
+
+}
+
+.contact input[type="text"], input[type="email"], textarea {
+
+    display: block;
+    margin-bottom: 40px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 05px;
+    background-color: #FFF;
+    border: 0;
+    font-size: 20px;
+    width: 80%;
+}
